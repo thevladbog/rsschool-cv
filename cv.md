@@ -25,3 +25,40 @@ Kuban State Technological University (Krasnodar)
 * Led the part of the project of changing delivery service provider related to improving the shopping experience. Reduced the transition time from three to one day in customer experience
 * Implemented the project "Buy here and now" to pay for kitchen furniture in the department. The share of sold kitchens (in units) was increased from 5% in November 2016 to 28% in June 2017
 * Led the part of the cash line modernization project “IKEA POS” in terms of training employees to work on the new cash registers system. At the end of the project, 32 cashiers, 5 senior cashiers and 12 administrators were trained to work in the new system
+
+## Code examples
+Below are some examples of code from the [Codewars](https://www.codewars.com/users/thevladbog)  
+* Remove String Spaces
+```javascript
+function noSpace(x){
+  let str = '';
+  str = x.replace(/\s+/g, '');
+  return str;
+}
+```
+* Reversed Strings
+```javascript
+function solution(str){
+      return str.split("").reverse().join("");
+}
+```
+* Opposite number
+```javascript
+function opposite(number) {
+  if(number <= 0) {
+    return Math.abs(number);
+  } else {
+    return -number;
+  }
+}
+```
+
+## Skills
+English: Advanced  
+1C Systems (Consultant-Specialist in TM)  
+Autodesk AutoCAD (2D Blueprint)  
+
+## Hobbies
+Cooking  
+Photography  
+Volleyball and walking  
