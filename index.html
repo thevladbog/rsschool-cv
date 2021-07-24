@@ -4,9 +4,120 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>thevladbog's CV</title>
 </head>
 <body>
-    
+    <aside>
+        <header>
+            <div class="top"><</div>
+            <div class='about_me'>
+                <img src="./src/images/IMG_0865.jpg" width="200px" height="200px" alt="Vladislav Bogatyrev's personal photo card" class="me">
+                <h1>Vladislav Bogatyrev</h1>
+                <h3>Junior <span class='wine'>winemaker</span> fronted developer</h3>
+                <article class="about">
+                    <h4>/ All about me</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus ullam neque, quod dignissimos fugit dolor eveniet aliquam facilis minima possimus repellat, consequuntur repudiandae error? Temporibus officiis vero repellat repudiandae deserunt.</p>
+                </article>
+            </div>
+            <div class="bottom">/></div>
+        </header>
+    </aside>
+    <main>
+        <section class='contact'>
+            <h4>/ Contact information</h4>
+            <div class="contact_information">
+                <ul class="main_contacts">
+                    <li>>> <a href="tel:+79604954610">+7 (960) 495-46-10</a></li>
+                    <li>>> <a href="mailto:vladislav.bogatyrev@gmail.com">vladislav.bogatyrev@gmail.com</a></li>
+                </ul>
+                <ul class="addres">
+                    <li>19 b.4, Novoyasenevskiy avenue, Moscow</li>
+                </ul>
+                <ul class="social">
+                    <li class='tg'><a href="https://t.me/thevladbog">@thevladbog</a></li>
+                    <li class='ig'><a href="https://instagram.com/thevladbog">@thevladbog</a></li>
+                </ul>
+            </div>
+        </section>
+
+        <section class='education'>
+            <h4>/ Education history</h4>
+            <div class="degree">
+                <p class="first">M.Sc. Food products from plant-extracted materials | 2017-2019</p>
+                <p class="second">Kuban State Technological University (Krasnodar)</p>
+                <p class="third">Institute of Food and Processing Industry. GPA: 5.00 out of 5.00</p>
+            </div>
+            <div class="degree">
+                <p class="first">B.Sc. Food products from plant-extracted materials | 2013-2017</p>
+                <p class="second">Kuban State Technological University (Krasnodar)</p>
+                <p class="third">Institute of Food and Processing Industry. GPA: 4.89 out of 5.00</p>
+            </div>
+        </section>
+
+        <section class='experience'>
+            <h4>/ Work experience</h4>
+            <div class="exp">
+                <p class="first">Assistant Chief of Staff | Russian armed forces | Nov. 2019 – Nov. 2020</p>
+                <p class="additional">(Military service in the army in accordance with Federal Law No 53)</p>
+                <ul class="ach">
+                    <li>Developed planning tool (Excel) for military transportation by the railway. As a result, the number of mistakes in the formation of orders for transportation was decreased by 55%; the time for forming was decreased by 80%</li>
+                    <li>Implemented 1C: Document Manager which made it easier to work with archive: the time for closing folders with cases was decreased by 35%; the time of searching for document was increased by 40%</li>
+                </ul>
+            </div>
+            <div class="exp">
+                <p class="first">Junior winemaker | Sikory Estate | June 2018 – Aug. 2019</p>
+                <p class="additional">(One of the most modern wineries in Russian Federation)</p>
+                <ul class="ach">
+                    <li>Implemented the 1C:ERP system to automate production processes. Automated 60% of production processes (getting grapes, processing, production losses, movement of wine materials through production stages), which made it possibilities to implement operational and financial accounting for the movement of products. As a result, the time for forming monthly reports on wine production has been reduced from five days to two</li>
+                    <li>Reduced the period of registration of shipping documents for the shipment of products from two days to one and the number of mistakes in shipping documents from nine cases to two per month</li>
+                </ul>
+            </div>
+            <div class="exp">
+                <p class="first">Customer Relation co-worker (part-time) | IKEA | Sep. 2015 – July 2017</p>
+                <ul class="ach">
+                    <li>Led the part of the project of changing delivery service provider related to improving the shopping experience. Reduced the transition time from three to one day in customer experience</li>
+                    <li>Implemented the project “Buy here and now” to pay for kitchen furniture in the department. The share of sold kitchens (in units) was increased from 5% in November 2016 to 28% in June 2017</li>
+                    <li>Led the part of the cash line modernization project “IKEA POS” in terms of training employees to work on the new cash registers system. At the end of the project, 32 cashiers, 5 senior cashiers and 12 administrators were trained to work in the new system</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class='examples'>
+            <h4>/ Code examples and competencies</h4>
+            <div class="competencies">
+                <ul class='competencies'>
+                    <li><span class='level'>2/5</span> HTML</li>
+                    <li><span class='level'>2/5</span> CSS</li>
+                    <li><span class='level'>1/5</span> JavaScript</li>
+                    <li><span class='level'>1/5</span> Python</li>
+                </ul>
+            </div>
+            <div class='examples'>
+                <p>Below are some examples of code from the Codewars</p>
+                <p>Remove String Spaces</p>
+                <pre>
+                    <code>
+                        function noSpace(x){
+                        let str = '';
+                        str = x.replace(/\s+/g, '');
+                        return str;
+                        }
+                    </code>
+                </pre>
+            </div>
+        </section>
+
+        <section class='other'>
+            <h4>/ And something else</h4>
+            <ul class="another">
+                <li>English: Advanced</li>
+                <li>1C Systems (Consultant-Specialist in TM)</li>
+                <li>Autodesk AutoCAD (2D Blueprint)</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer></footer>
 </body>
 </html>
