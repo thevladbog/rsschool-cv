@@ -14,10 +14,10 @@
             <div class='about_me'>
                 <img src="./src/images/IMG_0865.jpg" width="200px" height="200px" alt="Vladislav Bogatyrev's personal photo card" class="me">
                 <h1>Vladislav Bogatyrev</h1>
-                <h3>Junior <span class='wine'>winemaker</span> fronted developer</h3>
+                <h3>Junior <span class='wine'>winemaker</span> <br>fronted developer</h3>
                 <article class="about">
                     <h4>/ All about me</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus ullam neque, quod dignissimos fugit dolor eveniet aliquam facilis minima possimus repellat, consequuntur repudiandae error? Temporibus officiis vero repellat repudiandae deserunt.</p>
+                    <p>Hi! I'm 25 y.o. young man from sunny Krasnodar city, stepping on the path of Frontend developing</p>
                 </article>
             </div>
             <div class="bottom">/></div>
@@ -28,8 +28,8 @@
             <h4>/ Contact information</h4>
             <div class="contact_information">
                 <ul class="main_contacts">
-                    <li>>> <a href="tel:+79604954610">+7 (960) 495-46-10</a></li>
-                    <li>>> <a href="mailto:vladislav.bogatyrev@gmail.com">vladislav.bogatyrev@gmail.com</a></li>
+                    <li> <a href="tel:+79604954610">+7 (960) 495-46-10</a></li>
+                    <li> <a href="mailto:vladislav.bogatyrev@gmail.com">vladislav.bogatyrev@gmail.com</a></li>
                 </ul>
                 <ul class="addres">
                     <li>19 b.4, Novoyasenevskiy avenue, Moscow</li>
@@ -95,16 +95,24 @@
             </div>
             <div class='examples'>
                 <p>Below are some examples of code from the Codewars</p>
-                <p>Remove String Spaces</p>
-                <pre>
+                <div>
+                    <h5>Remove String Spaces</h5>
                     <code>
-                        function noSpace(x){
-                        let str = '';
-                        str = x.replace(/\s+/g, '');
-                        return str;
+                    function noSpace(x){ <br>
+                    let str = ''; <br>
+                    str = x.replace(/\s+/g, ''); <br>
+                    return str; <br>
+                    }
+                    </code>
+                </div>
+                <div>
+                    <h5>Reversed Strings</h5>
+                    <code>
+                        function solution(str){ <br>
+                            return str.split("").reverse().join(""); <br>
                         }
                     </code>
-                </pre>
+                </div>
             </div>
         </section>
 
@@ -118,6 +126,12 @@
         </section>
     </main>
 
-    <footer></footer>
+    <footer>
+        <ul>
+            <li class="git"><a href="https://github.com/thevladbog">GitHub/thevladbog</a></li>
+            <li>@ 2021</li>
+            <li class="school"><a href="https://rs.school/js/"><img src="https://rs.school/images/rs_school_js.svg" height="40px" alt="Logo of RSSchool"></a></li>
+        </ul>
+    </footer>
 </body>
 </html>
