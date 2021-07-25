@@ -1,0 +1,272 @@
+/* Указываем box sizing */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Убираем внутренние отступы */
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+/* Убираем внешние отступы */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Выставляем основные настройки по-умолчанию для body */
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+/* Удаляем стандартную стилизацию для всех ul и il, у которых есть атрибут class*/
+ul[class],
+ol[class] {
+  list-style: none;
+}
+
+/* Элементы a, у которых нет класса, сбрасываем до дефолтных стилей */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+/* Упрощаем работу с изображениями */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Указываем понятную периодичность в потоке данных у article*/
+article > * + * {
+  margin-top: 1em;
+}
+
+/* Наследуем шрифты для инпутов и кнопок */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Удаляем все анимации и переходы для людей, которые предпочитай их не использовать */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+html {
+    font-family: roboto;
+}
+
+body {
+    width: 1200px;
+    margin: 10px auto;
+}
+
+aside {
+    float: left;
+    width: 50%;
+}
+
+
+main {
+    float: right;
+    width: 50%;
+}
+
+.top {
+    text-align: left;
+    font-size: 100px;
+    font-weight: bold;
+}
+
+.bottom {
+    text-align: left;
+    font-size: 100px;
+    font-weight: bold;
+}
+
+.about_me {
+    margin: 80px;
+}
+
+.me {
+    display: block;
+    /* margin-left: auto; */
+    margin-right: auto;
+    border-radius: 100px;
+}
+
+h1 {
+    padding: 20px 0 5px 0;
+    font-size: 3em;
+    line-height: 0.8em;
+    text-transform: uppercase;
+}
+
+h3 {
+    padding: 5px 0;
+    font-size: 1.5em;
+    line-height: 0.8em;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+.wine {
+    text-decoration: line-through;
+}
+
+h4 {
+    font-size: 1.3em;
+    letter-spacing: 0.2em;
+    margin-top: 20px;
+}
+
+.contact ul {
+    margin-top: 15px;
+}
+
+.tg {
+    background: url("src/images/tg.png") no-repeat left center;
+    padding-left: 25px; 
+}
+
+.ig {
+    background: url("src/images/ig.png") no-repeat left center;
+    padding-left: 25px; 
+}
+
+.social a {
+    text-decoration: none;
+    color: black;
+}
+
+.main_contacts a {
+    text-decoration: none;
+    color: black;
+}
+
+.main_contacts li::before {
+    content: ">>";
+}
+
+.degree .first::before {
+    content: ">> ";
+}
+
+.degree .first {
+    font-weight: 900;
+    margin-top: 10px;
+}
+
+.degree .third {
+    font-style: italic;
+}
+
+.exp .first::before {
+    content: ">> ";
+}
+
+.exp .first {
+    font-weight: 900;
+    margin-top: 10px;
+}
+
+.exp .additional {
+    font-style: italic;
+    font-size: 0.9em;
+}
+
+.ach li::before {
+    content: "> ";
+}
+
+.ach li {
+    padding-left: 10px;
+}
+
+.level {
+    font-weight: 900;
+    font-size: 1.2em;
+}
+
+.competencies li::before {
+    content: ">> ";
+    font-weight: 900;
+}
+
+.competencies {
+    margin-bottom: 20px;
+}
+
+code {
+    display: block;
+    background: #757575;
+    color: rgb(253, 239, 216);
+    border-radius: 20px;
+    font-size: 1.1em;
+    padding: 10px 10px 10px 20px;
+}
+
+h5::before {
+    content: ">> ";
+}
+
+h5 {
+    font-size: 0.9em;
+    font-weight: 300;
+    font-style: italic;
+    margin-bottom: 0em;
+}
+
+.another li::before {
+    content: ">> ";
+}
+
+.other {
+    margin-bottom: 25px;
+}
+
+footer {
+    display: flex;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 80[x];
+    width: 100%;
+}
+
+footer li {
+    display: inline;
+}
+
+.git a {
+    background: url("src/images/git.png") no-repeat left center;
+    padding-left: 25px; 
+    text-decoration: none;
+    color: black;
+}
