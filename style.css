@@ -289,6 +289,7 @@ header a {
 .container {
     display: flex;
     justify-content: right;
+    margin: 20px 0;
 }
 
 .menu__box {
@@ -661,4 +662,41 @@ header a {
     font-weight: 500;
     font-size: 1.2em;
     margin-top: 50px;
+}
+
+p.description {
+    font-size: 14px;
+    margin: 10px 0 0 0;
+    padding: 0;
+}
+
+h5 {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.project_item li::before {
+    content: "> ";
+    padding-left: 10px;
+}
+
+a.exp {
+    text-decoration: none;
+    color: black;
+}
+
+a.exp:hover {
+    text-decoration: underline;
+}
+
+.codewars a {
+    text-decoration: none;
+    color: #b1361e;
+    font-weight: 700;
+}
+
+.codewars a:hover {
+    text-decoration: underline;
+    color: #93321f;
+    font-weight: 800;
 }
