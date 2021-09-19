@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>thevladbog's CV</title>
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
 </head>
 <body>
     <aside>
@@ -97,21 +100,21 @@
                 <p>Below are some examples of code from the Codewars</p>
                 <div>
                     <h5>Remove String Spaces</h5>
-                    <code>
-                    function noSpace(x){ <br>
-                    let str = ''; <br>
-                    str = x.replace(/\s+/g, ''); <br>
-                    return str; <br>
+                    <pre><code>
+                    function noSpace(x) {
+                        let str = '';
+                        str = x.replace(/\s+/g, '');
+                        return str;
                     }
-                    </code>
+                    </code></pre>
                 </div>
                 <div>
                     <h5>Reversed Strings</h5>
-                    <code>
-                        function solution(str){ <br>
-                            return str.split("").reverse().join(""); <br>
+                    <pre><code>
+                        function solution(str) {
+                            return str.split("").reverse().join("");
                         }
-                    </code>
+                    </code></pre>
                 </div>
             </div>
         </section>
